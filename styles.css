@@ -4,15 +4,15 @@
    --fs-sub subheadings (h3, figures, quote, org names)
    --fs-txt everything else (body, nav, buttons, labels, footer) */
 :root{
-  --bg:#E9EEDA;
-  --surface:#F6F8EE;
+  --bg:#E7EACB;
+  --surface:#F7F6E6;
   --emerald:#046B4A;
   --emerald-deep:#03513A;
-  --sage:#D7E2C2;
-  --sage-line:#BACDA0;
+  --sage:#DBE0B6;
+  --sage-line:#C3CB92;
   --black:#0A0F0C;
-  --grey:#434B3F;
-  --line:#D0D8BC;
+  --grey:#474A38;
+  --line:#D2D5AE;
   --ph:#6A1FB0;--ph-bg:#EEDFFC;--ph-line:#8E44D9;
 
   --font:"Manrope","Helvetica Neue",Arial,sans-serif;
@@ -56,7 +56,7 @@ small,b,strong{font-size:inherit}
 .btn-row{display:flex;flex-wrap:wrap;gap:.75rem}
 
 /* header */
-.site-head{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(233,238,218,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.site-head{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(231,234,203,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .head-in{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:5rem}
 .brand{display:flex;align-items:center;gap:.65rem;text-decoration:none;color:var(--black);font-weight:700;white-space:nowrap}
 .brand .mark{width:2.2rem;height:2.2rem;border-radius:50%;background:var(--emerald);color:var(--surface);display:grid;place-items:center;font-size:var(--fs-txt);letter-spacing:.02em}
