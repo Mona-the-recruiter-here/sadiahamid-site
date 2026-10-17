@@ -4,15 +4,15 @@
    --fs-sub subheadings (h3, figures, quote, org names)
    --fs-txt everything else (body, nav, buttons, labels, footer) */
 :root{
-  --bg:#E7EACB;
-  --surface:#F7F6E6;
+  --bg:#E2E1B4;
+  --surface:#F5F2DC;
   --emerald:#046B4A;
   --emerald-deep:#03513A;
-  --sage:#DBE0B6;
-  --sage-line:#C3CB92;
+  --sage:#D2D39C;
+  --sage-line:#B6B97A;
   --black:#0A0F0C;
-  --grey:#474A38;
-  --line:#D2D5AE;
+  --grey:#494733;
+  --line:#CDCBA0;
   --ph:#6A1FB0;--ph-bg:#EEDFFC;--ph-line:#8E44D9;
 
   --font:"Manrope","Helvetica Neue",Arial,sans-serif;
@@ -56,7 +56,7 @@ small,b,strong{font-size:inherit}
 .btn-row{display:flex;flex-wrap:wrap;gap:.75rem}
 
 /* header */
-.site-head{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(231,234,203,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.site-head{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(226,225,180,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .head-in{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:5rem}
 .brand{display:flex;align-items:center;gap:.65rem;text-decoration:none;color:var(--black);font-weight:700;white-space:nowrap}
 .brand .mark{width:2.2rem;height:2.2rem;border-radius:50%;background:var(--emerald);color:var(--surface);display:grid;place-items:center;font-size:var(--fs-txt);letter-spacing:.02em}
@@ -180,3 +180,9 @@ small,b,strong{font-size:inherit}
 .site-foot ul a:hover{color:var(--emerald-deep);text-decoration:underline}
 .foot-base{margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:.75rem 1.5rem;color:var(--grey)}
 .foot-base a{color:var(--grey)}
+
+/* text placeholders (purple) for coverage still to come */
+.ph-item{display:flex;flex-direction:column;gap:.35rem;padding:clamp(1.5rem,4vw,2rem);border:3px dashed var(--ph-line);background:var(--ph-bg);border-radius:var(--radius);color:var(--ph)}
+.ph-item b,.ph-item span,.ph-item h3{color:var(--ph)}
+.ph-item .ph-tag{align-self:flex-start;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--ph);color:#FFFFFF;padding:.2rem .75rem;border-radius:999px;margin-bottom:.35rem}
+.press-list{display:flex;flex-direction:column;gap:1.25rem}
