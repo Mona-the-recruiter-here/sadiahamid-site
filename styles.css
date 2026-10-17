@@ -233,3 +233,4 @@ small,b,strong{font-size:inherit}
 .foot-brand p,.site-foot ul a,.site-foot .muted,.foot-base,.foot-base a{color:var(--on-dark-soft)}
 .site-foot ul a:hover{color:var(--on-dark)}
 .foot-base{border-top-color:var(--dark-line)}
+.rows .price{font-weight:700;color:var(--emerald-deep);white-space:nowrap}
