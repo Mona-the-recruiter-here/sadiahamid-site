@@ -189,3 +189,20 @@ a.card .go{margin-top:auto;padding-top:.5rem;font-size:var(--fs-sm);font-weight:
 .page-hero .hero-grid{align-items:center}
 .hero-photo{max-width:26rem;width:100%;justify-self:end}
 @media (max-width:860px){.hero-photo{justify-self:start;max-width:22rem}}
+
+/* larger two-line tabs */
+.head-in{min-height:5.5rem}
+.menu{gap:.35rem}
+.menu a{display:flex;flex-direction:column;gap:.1rem;padding:.6rem 1rem;border-radius:12px;line-height:1.25}
+.menu a b{font-size:var(--fs-md);font-weight:700;color:var(--black)}
+.menu a small{font-size:var(--fs-xs);font-weight:500;color:var(--grey)}
+.menu a[aria-current="page"] b{color:var(--emerald-deep)}
+.menu .cta a{flex-direction:row;align-items:center;padding:.75rem 1.25rem;border-radius:999px;font-size:var(--fs-sm)}
+@media (max-width:1180px){.menu a{padding:.55rem .7rem}.menu a small{display:none}}
+@media (max-width:960px){.menu a{padding:.8rem 1rem}.menu a small{display:block}}
+.brand,.menu a b,.menu a small{white-space:nowrap}
+.menu{gap:.15rem}
+.menu a{padding:.55rem .8rem}
+.menu .cta a{justify-content:center;margin-left:.6rem}
+@media (max-width:1240px){.menu a small{display:none}.menu a{padding:.55rem .7rem}}
+@media (max-width:960px){.menu a small{display:block}.menu a{padding:.8rem 1rem}.menu .cta a{margin-left:0}}
