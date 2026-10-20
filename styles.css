@@ -257,3 +257,21 @@ small,b,strong{font-size:inherit}
 .logo-tile img.lw-script{max-width:82%}
 .logo-tile img.lw-tall{height:100%;max-height:100%}
 .logo-tile img.lw-wide{max-height:56%;max-width:56%}
+/* tighter logo tiles: smaller box, logo fills more of it */
+.logo-tile,.logos .logo-ph{height:5.75rem;padding:.6rem .9rem}
+.logo-tile img{max-width:88%;max-height:88%}
+.logo-tile img.lw-wide{max-width:70%;max-height:78%}
+.logo-tile img.lw-script{max-width:92%;max-height:80%}
+.logo-tile img.lw-tall{height:100%;max-height:100%;max-width:100%}
+.logos{gap:1rem}
+.logos .logo-ph{gap:.25rem}
+.logos{grid-template-columns:repeat(6,minmax(0,1fr))}
+.logo-tile,.logos .logo-ph{height:6rem;padding:.55rem .7rem}
+.logo-tile img,.logo-tile img.lw-wide,.logo-tile img.lw-script{max-width:92%;max-height:86%}
+.logo-tile img.lw-tall{height:100%;max-height:100%;max-width:100%}
+.logos .logo-ph b{font-size:var(--fs-txt);line-height:1.3}
+.logos .logo-ph .ph-tag{padding:.1rem .55rem}
+@media (max-width:980px){.logos{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:560px){.logos{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.logo-tile img.lw-wide{max-width:72%;max-height:70%}
+.logo-tile img.lw-script{max-width:100%;max-height:90%}
