@@ -283,3 +283,15 @@ small,b,strong{font-size:inherit}
 .logo-tile,.logos .logo-ph{height:7rem;padding:.65rem .85rem}
 @media (max-width:560px){.logos{grid-template-columns:repeat(2,minmax(0,1fr))}.logo-tile,.logos .logo-ph{height:6rem}}
 .logo-tile.cover{padding:0}.logo-tile.cover img{width:100%;height:100%;max-width:none;max-height:none;object-fit:cover}
+
+/* ===== warmer ground + antique gold accent ===== */
+:root{--bg:#E2D9A2;--surface:#F6F0D5;--sage:#D6CC92;--sage-line:#BBAF6F;--line:#CBC08C;--grey:#4A4530;--gold:#A9842B;--gold-soft:#D9B95E}
+.site-head{background:var(--dark)}
+.eyebrow{color:var(--gold)}
+.menu a[aria-current="page"]{box-shadow:inset 0 -2px 0 var(--gold-soft)}
+.site-head .brand .mark,.site-foot .brand .mark{box-shadow:0 0 0 2px var(--gold-soft)}
+.site-foot h4{color:var(--gold-soft)}
+.section-head h2::after,.connect h2::after{content:"";display:block;width:2.5rem;height:3px;background:var(--gold);border-radius:2px;margin-top:.75rem}
+.chapter-meta .era{color:var(--gold)}
+:root{--gold-text:#7E5F14}
+.eyebrow,.chapter-meta .era{color:var(--gold-text)}
