@@ -278,3 +278,7 @@ small,b,strong{font-size:inherit}
 /* logos: two rows of three, tiles kept small */
 .logos{grid-template-columns:repeat(3,minmax(0,1fr));max-width:40rem}
 @media (max-width:560px){.logos{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* slightly larger logo tiles, two rows of three */
+.logos{grid-template-columns:repeat(3,minmax(0,1fr));max-width:48rem;gap:1.1rem}
+.logo-tile,.logos .logo-ph{height:7rem;padding:.65rem .85rem}
+@media (max-width:560px){.logos{grid-template-columns:repeat(2,minmax(0,1fr))}.logo-tile,.logos .logo-ph{height:6rem}}
